@@ -28,7 +28,7 @@ _**Currently support**: Yahoo Acution, Mercari, Lashinbang._
 
 ## How to use
 
-**\*Going through all files and customize on your own is strongly recommended.\***
+**\*Checking all files and customizing on your own is strongly recommended.\***
 
 I split these files from the original project in rather haste, and cannot
 guarantee it would work as expected.
