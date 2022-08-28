@@ -43,10 +43,11 @@ Still if you'd rather not do so, follow these steps to have a quick go:
 > 2. Open config.ini and setup accordingly.
 >
 > 3. Run some python command:
->   
->        from bot_autorun import main
 >
->        message = main()
+>```python
+>from bot_autorun import main
+>message = main()
+>```
 >
 > 4. Copy the message out, or save it into a file, just do what you like.
 
