@@ -178,6 +178,7 @@ class LashinbangManager(CrawlerManager):
                 except TypeError as exc:
                     logger.error(f'Cannot load {kw} '\
                         f'page {p + 1} into json format. Exc: {exc}')
+                    self.info['error'] += 1
                     continue
                 except KeyError as exc:
                     logger.error(f'{kw} page {p + 1} was loaded, '\
